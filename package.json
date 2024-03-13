@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node dist/app.js"
+    "start": "node dist/app.js",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "express": "^4.18.3",
